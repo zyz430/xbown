@@ -1,0 +1,4 @@
+[[headers]]
+  for = "/*.js"  # 匹配所有 JS 文件
+  [headers.values]
+    Cache-Control = "public, max-age=2592000, immutable"  # 缓存 1 年，且内容不可变
