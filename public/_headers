@@ -1,2 +1,0 @@
-/*.js  # 匹配所有 JS 文件
-  Cache-Control:public, max-age=604800, immutable  # 缓存 1 年，且内容不可变
