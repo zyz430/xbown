@@ -1,39 +1,39 @@
 [[headers]]
   for = "/*.js"  # 匹配所有 JS 文件
   [headers.values]
-    Cache-Control = "public, max-age=604800, immutable"  # 缓存 1 年，且内容不可变
+    Cache-Control = "public, max-age=604800, must-revalidate"  # 缓存 1 年，且内容不可变
 
 [[headers]]
   for = "/sensorsdata.min.js"
   [headers.values]
-    Cache-Control = "no-cache, must-revalidate"
+    Cache-Control = "max-age=86400, must-revalidate"
 
 [[headers]]
   for = "/helpers.js"
   [headers.values]
-    Cache-Control = "no-cache, must-revalidate"
+    Cache-Control = "max-age=86400, must-revalidate"
 
 [[headers]]
   for = "/core.js"
   [headers.values]
-    Cache-Control = "no-cache, must-revalidate"
+    Cache-Control = "max-age=86400, must-revalidate"
 
 [[headers]]
   for = "/lib.core.js"
   [headers.values]
-    Cache-Control = "no-cache, must-revalidate"
+    Cache-Control = "max-age=86400, must-revalidate"
 
 [[headers]]
   for = "/adapter.js"
   [headers.values]
-    Cache-Control = "no-cache, must-revalidate"
+    Cache-Control = "max-age=86400, must-revalidate"
 
 [[headers]]
   for = "/wrapper.js"
   [headers.values]
-    Cache-Control = "no-cache, must-revalidate"
+    Cache-Control = "max-age=86400, must-revalidate"
 
 [[headers]]
   for = "/enhance.min.js"
   [headers.values]
-    Cache-Control = "no-cache, must-revalidate"
+    Cache-Control = "max-age=86400, must-revalidate"
