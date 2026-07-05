@@ -6,34 +6,34 @@
 [[headers]]
   for = "/sensorsdata.min.js"
   [headers.values]
-    Cache-Control = "public, max-age=2592000, immutable"
+    Cache-Control = "no-cache, must-revalidate"
 
 [[headers]]
   for = "/helpers.js"
   [headers.values]
-    Cache-Control = "public, max-age=2592000, immutable"
+    Cache-Control = "no-cache, must-revalidate"
 
 [[headers]]
   for = "/core.js"
   [headers.values]
-    Cache-Control = "public, max-age=2592000, immutable"
+    Cache-Control = "no-cache, must-revalidate"
 
 [[headers]]
   for = "/lib.core.js"
   [headers.values]
-    Cache-Control = "public, max-age=2592000, immutable"
+    Cache-Control = "no-cache, must-revalidate"
 
 [[headers]]
   for = "/adapter.js"
   [headers.values]
-    Cache-Control = "public, max-age=2592000, immutable"
+    Cache-Control = "no-cache, must-revalidate"
 
 [[headers]]
   for = "/wrapper.js"
   [headers.values]
-    Cache-Control = "public, max-age=2592000, immutable"
+    Cache-Control = "no-cache, must-revalidate"
 
 [[headers]]
   for = "/enhance.min.js"
   [headers.values]
-    Cache-Control = "public, max-age=2592000, immutable"
+    Cache-Control = "no-cache, must-revalidate"
