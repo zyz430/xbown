@@ -34,6 +34,6 @@
     Cache-Control = "public, max-age=2592000, immutable"
 
 [[headers]]
-  for = "/enhance.js"
+  for = "/enhance.min.js"
   [headers.values]
     Cache-Control = "public, max-age=2592000, immutable"
