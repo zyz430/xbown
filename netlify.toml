@@ -2,3 +2,38 @@
   for = "/*.js"  # 匹配所有 JS 文件
   [headers.values]
     Cache-Control = "public, max-age=604800, immutable"  # 缓存 1 年，且内容不可变
+
+[[headers]]
+  for = "/sensorsdata.min.js"
+  [headers.values]
+    Cache-Control = "public, max-age=2592000, immutable"
+
+[[headers]]
+  for = "/helpers.js"
+  [headers.values]
+    Cache-Control = "public, max-age=2592000, immutable"
+
+[[headers]]
+  for = "/core.js"
+  [headers.values]
+    Cache-Control = "public, max-age=2592000, immutable"
+
+[[headers]]
+  for = "/lib.core.js"
+  [headers.values]
+    Cache-Control = "public, max-age=2592000, immutable"
+
+[[headers]]
+  for = "/adapter.js"
+  [headers.values]
+    Cache-Control = "public, max-age=2592000, immutable"
+
+[[headers]]
+  for = "/wrapper.js"
+  [headers.values]
+    Cache-Control = "public, max-age=2592000, immutable"
+
+[[headers]]
+  for = "/enhance.js"
+  [headers.values]
+    Cache-Control = "public, max-age=2592000, immutable"
