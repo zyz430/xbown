@@ -39,4 +39,3 @@
   for = "/enhance.min.js"
   [headers.values]
     Cache-Control = "max-age=86400, must-revalidate"
-    Access-Control-Allow-Origin = "*"
