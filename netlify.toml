@@ -7,6 +7,7 @@
   for = "/sensorsdata.min.js"
   [headers.values]
     Cache-Control = "max-age=86400, must-revalidate"
+    Access-Control-Allow-Origin = "*"
 
 [[headers]]
   for = "/helpers.js"
@@ -22,19 +23,22 @@
   for = "/lib.core.js"
   [headers.values]
     Cache-Control = "max-age=86400, must-revalidate"
+    Access-Control-Allow-Origin = "*"
 
 [[headers]]
   for = "/adapter.js"
   [headers.values]
     Cache-Control = "max-age=86400, must-revalidate"
-    # Access-Control-Allow-Origin = "*"
+    Access-Control-Allow-Origin = "*"
 
 [[headers]]
   for = "/wrapper.js"
   [headers.values]
     Cache-Control = "max-age=86400, must-revalidate"
+    Access-Control-Allow-Origin = "*"
 
 [[headers]]
   for = "/enhance.min.js"
   [headers.values]
     Cache-Control = "max-age=86400, must-revalidate"
+    Access-Control-Allow-Origin = "*"
